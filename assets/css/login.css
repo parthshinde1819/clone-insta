@@ -1,0 +1,101 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    height: 88vh;
+
+}
+
+#login-main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+ ;
+}
+.image-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    width: 270px;
+    border: 0.5px solid lightgray;
+    height: auto;
+    padding: 30px;
+}
+.main-container .right{
+    width: 400px;
+}
+.logo-login .logo {
+    width: 50%;
+    margin: 22px 91px;
+}
+#login-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input {
+    width: 90%;
+    height: 20px;
+    width: 90%;
+    height: 29px;
+    border: 0.8px solid lightgray;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+#login{
+
+    width: 94%!important;
+    background-color: var(--login-button);
+    color: white;
+    border-radius: 10px;
+    height: 36px;
+    border: 0.8px solid lightgray;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+.or-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fa-square-facebook{
+    font-size: 20px;
+    color: #0f0fdb;
+}
+.login-with-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.forgot-pass{
+    margin-top: 30px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    
+}
+.forgot-pass a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#left-side-image{
+    max-width: 300px;
+    margin-bottom: 200px;
+    position: relative;
+}
