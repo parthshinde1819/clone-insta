@@ -16,7 +16,9 @@
       crossorigin="anonymous"
     ></script>
     <title>Instagram</title>
+    <script src="assets/js/common.js"></script>
   </head>
+
   <body>
     <section id="login-main-container">
       <div class="main-container">
@@ -30,16 +32,19 @@
               <img src="assets/images/insta-h-logo.png" class="logo" alt="" />
             </div>
             <!-- inputs -->
-            <form action="">
+            <form action="index.html" method="get">
               <div class="form" id="login-form-container">
                 <input
                   type="text"
+                  name="username"
                   placeholder="Phone number , username , email "
                   name=""
                   id=""
                 />
                 <input type="password" placeholder="Password" name="" id="" />
-                <button type="submit" id="login">Login</button>
+                <button type="submit" class="cursor-pointer" id="login">
+                  Log In
+                </button>
               </div>
             </form>
             <div class="or-container">
@@ -55,8 +60,71 @@
               <a href="" class="forgot-password"> Forgot Password ?</a>
             </div>
           </div>
+          <div class="sign-up-container">
+            <h5>Don't Have an account ? <a href=""> Signup</a></h5>
+          </div>
+          <div class="get-the-app d-flex justify-center items-center">
+            <div>Get the app</div>
+          </div>
+          <div
+            class="download-from-app-play-store d-flex justify-center items-center"
+          >
+            <!-- playstore image -->
+            <a href="">
+              <img
+                src="assets/images/google-play.png"
+                class="play-button"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                src="assets/images/microsoft-button.png"
+                class="play-button"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
       </div>
+      <section>
+        <footer>
+          <ul>
+            <ul class="d-flex nav-items">
+              <li><a href="#" class="nav-link-single">Meta</a></li>
+              <li><a href="#" class="nav-link-single">About</a></li>
+              <li><a href="#" class="nav-link-single">Blog</a></li>
+              <li><a href="#" class="nav-link-single">Jobs</a></li>
+              <li><a href="#" class="nav-link-single">Help</a></li>
+              <li><a href="#" class="nav-link-single">API</a></li>
+              <li><a href="#" class="nav-link-single">Privacy</a></li>
+              <li><a href="#" class="nav-link-single">Terms</a></li>
+              <li><a href="#" class="nav-link-single">Locations</a></li>
+              <li><a href="#" class="nav-link-single">Instagram Lite</a></li>
+              <li><a href="#" class="nav-link-single">Threads</a></li>
+              <li>
+                <a href="#" class="nav-link-single"
+                  >Contact Uploading & Non-Users</a
+                >
+              </li>
+
+              <li><a href="#" class="nav-link-single">Meta Verified</a></li>
+            </ul>
+          </ul>
+          <ul class="d-flex justify-center items-center nav-items">
+            <select name="" id="insta-user-lang">
+              <script class="nav-link-single">
+                languages.forEach((element) => {
+                  document.write(
+                    `<option id='langs' class='nav-link-single' value="${element}> ${element} <option>`
+                  );
+                });
+              </script>
+            </select>
+            <li class="nav-link-single">© 2024 Instagram from Meta</li>
+          </ul>
+        </footer>
+      </section>
     </section>
   </body>
 </html>

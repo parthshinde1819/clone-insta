@@ -1,0 +1,139 @@
+#main-section {
+  display: flex;
+  height: auto;
+}
+ul {
+  list-style: none;
+}
+.menu-section {
+  width: 30%;
+  border-right: 1px solid #c9c9c9;
+}
+.post h5 {
+    font-weight: 900!important;
+}
+.main-nav-item {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.nav-items {
+  margin: 30px 0px;
+}
+.dashboard-main-menu {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+#main-page-logo {
+  width: 60%;
+}
+
+.right-feed {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bottom-section {
+  position: relative;
+  margin-top: 100px !important;
+}
+
+/* feed story */
+.feed-stories {
+  width: 100%;
+  border: 0.5px solid lightgray;
+  border-radius: 15px;
+}
+
+.right-feed {
+  /* padding: 20px 100px; */
+  margin: 40px 300px;
+}
+
+.story-container {
+  display: flex;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+}
+
+.story-container-single {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* border: 1px solid ; */
+  border-style: solid;
+}
+
+.story-container li {
+  margin: 0px 10px;
+}
+.post-container {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+}
+
+.profile-image {
+  width: 45px;
+  height: 45px;
+  background-color: red;
+  border-radius: 50%;
+}
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+  border-bottom: 0.5px solid lightgray;
+  border-radius: 10px;
+}
+.post-body {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/meher.png");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-comment-share div {
+  margin: 0px 10px;
+  font-size: 25px;
+}
+.fa-bookmark {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.reaction-container {
+  padding: 10px;
+}
+
+.captions {
+  padding: 10px;
+}

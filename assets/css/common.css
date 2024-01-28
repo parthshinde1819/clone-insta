@@ -1,5 +1,25 @@
-*{margin: 0;padding: 0;}
-
-:root {
-    --login-button : #26a3fc;
+*{margin: 0;padding: 0;font-weight: 100;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: Segoe UI;
+    src: url('../fonts/SegoeUI.ttf');
 }
+:root {
+    --login-button : #0095f6;;
+    --font: "Roboto";
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+

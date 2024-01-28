@@ -52,15 +52,16 @@ form input {
 #login{
 
     width: 94%!important;
-    background-color: var(--login-button);
+    background-color: #5ab8f7;
     color: white;
     border-radius: 10px;
     height: 36px;
     border: 0.8px solid lightgray;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 5px;
     margin-top: 10px;
     outline: none;
+    font-weight:700;
 }
 .or-container{
     display: flex;
@@ -78,6 +79,11 @@ form input {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    font-weight: 100;
+}
+.login-with-facebook h5 {
+    font-weight: 200;
+    margin-left: 5px;
 }
 
 .forgot-pass{
@@ -98,4 +104,61 @@ form input {
     max-width: 300px;
     margin-bottom: 200px;
     position: relative;
+}
+
+.sign-up-container{
+    width: 82.5%;
+    height: 60px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sign-up-container h5 {
+    font-weight: 100!important;
+}
+.sign-up-container a {
+    text-decoration: none;
+    color: #0095f6;
+    
+
+}
+
+.get-the-app , .download-from-app-play-store{
+    width: 83.5%;
+    height: 40px;
+
+}
+.download-from-app-play-store
+{
+    padding: 5px;
+    
+}
+
+.play-button{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.nav-items {
+    list-style: none;
+}
+.nav-link-single{
+    text-decoration: none;
+    font-size: 11px;
+    margin: 4px 8px;
+    color: gray;
+}
+
+#insta-user-lang{
+    border: none;
+    background-color: transparent;
+    font-weight: 100;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
