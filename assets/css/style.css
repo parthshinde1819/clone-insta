@@ -69,7 +69,8 @@ ul {
   height: 50px;
   border-radius: 50%;
   /* border: 1px solid ; */
-  border-style: solid;
+  border-style: solid ;
+  border-color: rgba(216, 40, 128, 0.897) rgb(192, 159, 13);
 }
 
 .story-container li {

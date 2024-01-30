@@ -38,10 +38,8 @@
     align-items: center;
 }
 form input {
-    width: 90%;
+    width: 243px;
     height: 20px;
-    width: 90%;
-    height: 29px;
     border: 0.8px solid lightgray;
     border-radius: 3px;
     padding: 5px;
@@ -103,7 +101,13 @@ form input {
 #left-side-image{
     max-width: 300px;
     margin-bottom: 200px;
-    position: relative;
+    margin-right: 60px;
+    /* position: relative; */
+}
+.image-clone{
+    position: absolute;
+  margin-right: 209px;
+  margin: 30px 85px;
 }
 
 .sign-up-container{
